@@ -13,7 +13,7 @@ class Cat(Animal):
 
     def catchMice(self):
         # print(self.name)
-        print("can catch mice")
+        print("it can catch mice")
 
     def bark(self):
         print("miao miao")
