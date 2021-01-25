@@ -1,0 +1,6 @@
+staging: "test1"n1: 12.3
+n2: true
+n3: false
+n4: null
+n6: '123'
+n7: 'true'
