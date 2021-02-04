@@ -1,0 +1,66 @@
+{
+  "name": "test_add[fail_str4]",
+  "status": "broken",
+  "statusDetails": {
+    "message": "TypeError: can only concatenate str (not \"int\") to str",
+    "trace": "self = <hogwarts_practices.python_calcu.testcases.test_caclu.TestCalc object at 0x000002432A2882E0>\na = '?', b = 1, expect = 0\n\n    @pytest.mark.parametrize(\n        \"a, b, expect\",\n        add_datas, ids=add_myid\n    )\n    @pytest.mark.add\n    def test_add(self, a, b, expect):\n        print(f\"a:{a}\")\n        # 实例化计算器类\n        # calc = Calculator()\n        # 定义一个变量接收add方法的返回值\n        # 调用相加方法\n>       result = self.calc.add(a, b)\n\ntestcases\\test_caclu.py:48: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <python_calcu.common.calc.Calculator object at 0x000002432A211D00>\na = '?', b = 1\n\n    def add(self, a, b):\n>       return a + b\nE       TypeError: can only concatenate str (not \"int\") to str\n\ncommon\\calc.py:12: TypeError"
+  },
+  "parameters": [
+    {
+      "name": "a",
+      "value": "'?'"
+    },
+    {
+      "name": "b",
+      "value": "1"
+    },
+    {
+      "name": "expect",
+      "value": "0"
+    }
+  ],
+  "start": 1612429349480,
+  "stop": 1612429349480,
+  "uuid": "9a0e8387-d7fd-431e-baf9-bb75ac3e7256",
+  "historyId": "fdb06e25998b7aeb9216ce4951818a37",
+  "testCaseId": "0bb77d4a2def660b3daa73649a493b3a",
+  "fullName": "testcases.test_caclu.TestCalc#test_add",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "add"
+    },
+    {
+      "name": "parentSuite",
+      "value": "testcases"
+    },
+    {
+      "name": "suite",
+      "value": "test_caclu"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalc"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-G0VL8CLJ"
+    },
+    {
+      "name": "thread",
+      "value": "11380-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "testcases.test_caclu"
+    }
+  ]
+}

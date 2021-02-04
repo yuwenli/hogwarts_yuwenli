@@ -1,0 +1,174 @@
+{
+  "uid": "4b4757e66a1912dae1a509f688f20b0f",
+  "name": "categories",
+  "children": [
+    {
+      "name": "Product defects",
+      "children": [
+        {
+          "name": "AssertionError: None\nassert -0.1 == 0.3\n  +-0.1\n  -0.3",
+          "children": [
+            {
+              "name": "test_add[fail_float]",
+              "uid": "d125038e4ad070c",
+              "parentUid": "abf0c7fbca47d1ce5dc6abe2064f803a",
+              "status": "failed",
+              "time": {
+                "start": 1612429349390,
+                "stop": 1612429349390,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "0.1",
+                "-0.2",
+                "0.3"
+              ]
+            }
+          ],
+          "uid": "abf0c7fbca47d1ce5dc6abe2064f803a"
+        },
+        {
+          "name": "AssertionError: None\nassert 'ab' == 0\n  +'ab'\n  -0",
+          "children": [
+            {
+              "name": "test_add[fail_str2]",
+              "uid": "d4c3b04396ba76f9",
+              "parentUid": "2afda22abd34dad5b76e992b2647e81a",
+              "status": "failed",
+              "time": {
+                "start": 1612429349468,
+                "stop": 1612429349468,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "'a'",
+                "'b'",
+                "0"
+              ]
+            }
+          ],
+          "uid": "2afda22abd34dad5b76e992b2647e81a"
+        },
+        {
+          "name": "AssertionError: assert -0.5 == -0.05\n  +-0.5\n  --0.05",
+          "children": [
+            {
+              "name": "test_div[float_fail1]",
+              "uid": "351e7de767a8d70b",
+              "parentUid": "35e7189f06a7a855ab39607f51d343be",
+              "status": "failed",
+              "time": {
+                "start": 1612429349499,
+                "stop": 1612429349499,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "0.1",
+                "-0.2",
+                "-0.05"
+              ]
+            }
+          ],
+          "uid": "35e7189f06a7a855ab39607f51d343be"
+        },
+        {
+          "name": "AssertionError: assert 1 == 0\n  +1\n  -0",
+          "children": [
+            {
+              "name": "test_div[ZeroDivisionError_fail1]",
+              "uid": "8b19432031269e83",
+              "parentUid": "c0a776b5fa3eec3868aa5e8e96941f56",
+              "status": "failed",
+              "time": {
+                "start": 1612429349505,
+                "stop": 1612429349505,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "1",
+                "0",
+                "1"
+              ]
+            }
+          ],
+          "uid": "c0a776b5fa3eec3868aa5e8e96941f56"
+        }
+      ],
+      "uid": "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+    },
+    {
+      "name": "Test defects",
+      "children": [
+        {
+          "name": "TypeError: can only concatenate str (not \"int\") to str",
+          "children": [
+            {
+              "name": "test_add[fail_str1]",
+              "uid": "379506cdc3dfb07",
+              "parentUid": "e055865276aa8c01ebf150c81e5da6eb",
+              "status": "broken",
+              "time": {
+                "start": 1612429349461,
+                "stop": 1612429349461,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "'a'",
+                "100",
+                "100"
+              ]
+            },
+            {
+              "name": "test_add[fail_str3]",
+              "uid": "30baaa585423fcd7",
+              "parentUid": "e055865276aa8c01ebf150c81e5da6eb",
+              "status": "broken",
+              "time": {
+                "start": 1612429349474,
+                "stop": 1612429349474,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "'测试'",
+                "1",
+                "0"
+              ]
+            },
+            {
+              "name": "test_add[fail_str4]",
+              "uid": "e7f64d57cf677d9e",
+              "parentUid": "e055865276aa8c01ebf150c81e5da6eb",
+              "status": "broken",
+              "time": {
+                "start": 1612429349480,
+                "stop": 1612429349480,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "'?'",
+                "1",
+                "0"
+              ]
+            }
+          ],
+          "uid": "e055865276aa8c01ebf150c81e5da6eb"
+        }
+      ],
+      "uid": "bdbf199525818fae7a8651db9eafe741"
+    }
+  ]
+}

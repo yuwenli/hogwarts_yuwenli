@@ -1,0 +1,48 @@
+{
+  "name": "test_mul",
+  "status": "passed",
+  "start": 1612429349526,
+  "stop": 1612429349526,
+  "uuid": "1b701d34-fc8d-4845-9edb-1f8eb49be8b1",
+  "historyId": "08d351b43b5caec4df474250c82e0708",
+  "testCaseId": "a3df3db7b5112a0a871bb2d769824420",
+  "fullName": "testcases.test_caclu.TestCalc#test_mul",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "mul"
+    },
+    {
+      "name": "parentSuite",
+      "value": "testcases"
+    },
+    {
+      "name": "suite",
+      "value": "test_caclu"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalc"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-G0VL8CLJ"
+    },
+    {
+      "name": "thread",
+      "value": "11380-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "testcases.test_caclu"
+    }
+  ]
+}

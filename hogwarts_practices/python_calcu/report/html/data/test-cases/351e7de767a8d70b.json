@@ -1,0 +1,131 @@
+{
+  "uid": "351e7de767a8d70b",
+  "name": "test_div[float_fail1]",
+  "fullName": "testcases.test_caclu.TestCalc#test_div",
+  "historyId": "b7af9b40c82d5ffa8f35196d8921d6e7",
+  "time": {
+    "start": 1612429349499,
+    "stop": 1612429349499,
+    "duration": 0
+  },
+  "status": "failed",
+  "statusMessage": "AssertionError: assert -0.5 == -0.05\n  +-0.5\n  --0.05",
+  "statusTrace": "self = <hogwarts_practices.python_calcu.testcases.test_caclu.TestCalc object at 0x000002432A256880>\na = 0.1, b = -0.2, expect = -0.05\n\n    @pytest.mark.parametrize(\n        \"a, b, expect\",\n        div_datas, ids=div_myid\n    )\n    @pytest.mark.div\n    def test_div(self,a, b, expect):\n        if b!=0:\n            result = self.calc.div(a, b)\n            # 判断result是浮点数，保留2位小数的处理\n            if isinstance(result, float):\n                # round方法处理浮点数，result保留2位小数\n                result = round(result, 2)\n            # 得到相加结果之后写断言\n            print(f\"result:{result},expect: {expect}\")\n>           assert result == expect\nE           assert -0.5 == -0.05\nE             +-0.5\nE             --0.05\n\ntestcases\\test_caclu.py:71: AssertionError",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "xunit_setup_class_fixture_TestCalc",
+      "time": {
+        "start": 1612429349378,
+        "stop": 1612429349378,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "hasContent": false,
+      "stepsCount": 0
+    }
+  ],
+  "afterStages": [
+    {
+      "name": "xunit_setup_class_fixture_TestCalc::0",
+      "time": {
+        "start": 1612429349526,
+        "stop": 1612429349527,
+        "duration": 1
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "hasContent": false,
+      "stepsCount": 0
+    }
+  ],
+  "labels": [
+    {
+      "name": "tag",
+      "value": "div"
+    },
+    {
+      "name": "parentSuite",
+      "value": "testcases"
+    },
+    {
+      "name": "suite",
+      "value": "test_caclu"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalc"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-G0VL8CLJ"
+    },
+    {
+      "name": "thread",
+      "value": "11380-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "testcases.test_caclu"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "a",
+      "value": "0.1"
+    },
+    {
+      "name": "b",
+      "value": "-0.2"
+    },
+    {
+      "name": "expect",
+      "value": "-0.05"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [
+      {
+        "name": "Product defects",
+        "matchedStatuses": [],
+        "flaky": false
+      }
+    ],
+    "tags": [
+      "div"
+    ]
+  },
+  "source": "351e7de767a8d70b.json",
+  "parameterValues": [
+    "0.1",
+    "-0.2",
+    "-0.05"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "name": "test_add[fail_str2]",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: None\nassert 'ab' == 0\n  +'ab'\n  -0",
+    "trace": "self = <hogwarts_practices.python_calcu.testcases.test_caclu.TestCalc object at 0x000002432A25BB20>\na = 'a', b = 'b', expect = 0\n\n    @pytest.mark.parametrize(\n        \"a, b, expect\",\n        add_datas, ids=add_myid\n    )\n    @pytest.mark.add\n    def test_add(self, a, b, expect):\n        print(f\"a:{a}\")\n        # 实例化计算器类\n        # calc = Calculator()\n        # 定义一个变量接收add方法的返回值\n        # 调用相加方法\n        result = self.calc.add(a, b)\n        # 判断result是浮点数，保留2位小数的处理\n        if isinstance(result, float):\n            # round方法处理浮点数，result保留2位小数\n            result = round(result, 2)\n        # 得到相加结果之后写断言\n        # print(f\"result:{result},expect:{expect}\")\n>       assert result == expect,print(f\" result:{result},expect:{expect}\")\nE       AssertionError: None\nE       assert 'ab' == 0\nE         +'ab'\nE         -0\n\ntestcases\\test_caclu.py:55: AssertionError"
+  },
+  "parameters": [
+    {
+      "name": "a",
+      "value": "'a'"
+    },
+    {
+      "name": "b",
+      "value": "'b'"
+    },
+    {
+      "name": "expect",
+      "value": "0"
+    }
+  ],
+  "start": 1612429349468,
+  "stop": 1612429349468,
+  "uuid": "5f8b37be-53ac-46b1-90a6-4434de4b7b86",
+  "historyId": "aeadc7b7c53665ea20ced2d07a042a43",
+  "testCaseId": "0bb77d4a2def660b3daa73649a493b3a",
+  "fullName": "testcases.test_caclu.TestCalc#test_add",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "add"
+    },
+    {
+      "name": "parentSuite",
+      "value": "testcases"
+    },
+    {
+      "name": "suite",
+      "value": "test_caclu"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalc"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-G0VL8CLJ"
+    },
+    {
+      "name": "thread",
+      "value": "11380-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "testcases.test_caclu"
+    }
+  ]
+}

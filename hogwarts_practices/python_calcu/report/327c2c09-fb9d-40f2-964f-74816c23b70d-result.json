@@ -1,0 +1,62 @@
+{
+  "name": "test_add[intminus2]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "a",
+      "value": "-98"
+    },
+    {
+      "name": "b",
+      "value": "50"
+    },
+    {
+      "name": "expect",
+      "value": "-48"
+    }
+  ],
+  "start": 1612429349454,
+  "stop": 1612429349454,
+  "uuid": "0be7e147-5c4d-4221-9a74-5911568847f1",
+  "historyId": "6da42f7e87ebfe43c28af685c37e893c",
+  "testCaseId": "0bb77d4a2def660b3daa73649a493b3a",
+  "fullName": "testcases.test_caclu.TestCalc#test_add",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "add"
+    },
+    {
+      "name": "parentSuite",
+      "value": "testcases"
+    },
+    {
+      "name": "suite",
+      "value": "test_caclu"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalc"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-G0VL8CLJ"
+    },
+    {
+      "name": "thread",
+      "value": "11380-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "testcases.test_caclu"
+    }
+  ]
+}

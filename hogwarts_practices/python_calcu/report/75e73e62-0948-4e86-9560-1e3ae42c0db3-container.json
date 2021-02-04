@@ -1,0 +1,46 @@
+{
+  "uuid": "938c1f38-7e0a-4857-945e-95d9ba396b87",
+  "children": [
+    "8bdb50c0-abe6-4034-a269-b9d75c75ae2c",
+    "318feaa0-659c-420e-b8e4-a4a8ff90242d",
+    "b58b95e2-a7c9-4f05-8db5-467100820faa",
+    "5543c57a-5485-4652-8aa9-d82ccfae77be",
+    "826f1bb1-70f8-4dbe-b3cd-f1ae90079a99",
+    "1bdd6a75-825f-4de0-9840-54cefc3faf38",
+    "4014b88e-c2f4-4690-b58e-abedbd2d06aa",
+    "0be7e147-5c4d-4221-9a74-5911568847f1",
+    "451b0a02-5fc7-4063-b49f-e1c9b956a8c7",
+    "3ae4fa82-b56e-4b58-bd53-2e05bef5ca96",
+    "5f8b37be-53ac-46b1-90a6-4434de4b7b86",
+    "eb1588f8-4bd9-4b64-a210-1bbe858dbd96",
+    "9a0e8387-d7fd-431e-baf9-bb75ac3e7256",
+    "9c5451f5-21e0-4bcc-8c2d-4e0e3117e3c9",
+    "0faaf759-d5fc-4ee9-a46e-583fe95168bf",
+    "101ab898-f8d8-4de0-bbe2-f66546043b26",
+    "1acc0ec6-bf44-454f-8b76-3f5d1d5419a6",
+    "f777de73-7558-4585-b0f5-2dada00bc353",
+    "74e04c65-7ba0-4d76-be91-e255da429555",
+    "8b6dc0fa-015c-4e4c-a982-1cfd599cc4d5",
+    "7f1ea4df-1473-4b78-9782-eb9861af0d00",
+    "70df9704-131d-4ffb-8837-c5e2a0e96826",
+    "1b701d34-fc8d-4845-9edb-1f8eb49be8b1"
+  ],
+  "befores": [
+    {
+      "name": "xunit_setup_class_fixture_TestCalc",
+      "status": "passed",
+      "start": 1612429349378,
+      "stop": 1612429349378
+    }
+  ],
+  "afters": [
+    {
+      "name": "xunit_setup_class_fixture_TestCalc::0",
+      "status": "passed",
+      "start": 1612429349526,
+      "stop": 1612429349527
+    }
+  ],
+  "start": 1612429349378,
+  "stop": 1612429349527
+}
