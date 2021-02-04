@@ -20,7 +20,7 @@ html_dir = os.path.join(path, 'report', 'html')
 if __name__ == '__main__':
     # pytest执行某个py的类，并生成报告
     pytest.main(
-        ['-v', '-s', f'E:/lago/python_project1/hogwarts_practices/python_calcu/testcases/test_caclu.py::TestCalc',
+        ['-v', '-s', r'E:/lago/python_project1/hogwarts_practices/python_calcu/testcases/test_caclu.py::TestCalc',
          '--alluredir=E:/lago/python_project1/hogwarts_practices/python_calcu/report'
          ])
     os.system("allure generate %s -o %s --clean" % (report_dir, html_dir))
