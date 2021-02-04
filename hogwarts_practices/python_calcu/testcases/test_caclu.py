@@ -70,7 +70,7 @@ class TestCalc():
             print(f"result:{result},expect: {expect}")
             assert result == expect
             print("test_div")
-        else:
+        elif b == 0:
             # 过滤掉b=0的情况
             assert 1 == 0
             print("ZeroDivisionError")
