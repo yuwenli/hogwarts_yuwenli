@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase.test_contact",
+    "children" : [ {
+      "name" : "test_add_member[get_datas_member0]",
+      "uid" : "568d6a95dfd43f70",
+      "parentUid" : "4f73487b99c7af0054da9870d9e0a024",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614754651115,
+        "stop" : 1614754652591,
+        "duration" : 1476
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "['测试21', 'test21', '18898426522']" ]
+    }, {
+      "name" : "test_add_member[get_datas_member1]",
+      "uid" : "31d2a83d2719c34",
+      "parentUid" : "4f73487b99c7af0054da9870d9e0a024",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614754653306,
+        "stop" : 1614754654814,
+        "duration" : 1508
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "['测试22', 'test22', '18898426521']" ]
+    } ],
+    "uid" : "testcase.test_contact"
+  } ]
+}

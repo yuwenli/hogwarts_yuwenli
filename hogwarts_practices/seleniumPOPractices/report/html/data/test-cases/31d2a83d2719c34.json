@@ -1,0 +1,120 @@
+{
+  "uid" : "31d2a83d2719c34",
+  "name" : "test_add_member[get_datas_member1]",
+  "fullName" : "testcase.test_contact.TestContact#test_add_member",
+  "historyId" : "d93dff1c8235295c027474170f7ce02c",
+  "time" : {
+    "start" : 1614754653306,
+    "stop" : 1614754654814,
+    "duration" : 1508
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_datas_member",
+    "time" : {
+      "start" : 1614754652594,
+      "stop" : 1614754652594,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "添加成员",
+      "time" : {
+        "start" : 1614754653307,
+        "stop" : 1614754654814,
+        "duration" : 1507
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "get_datas_member::0",
+    "time" : {
+      "start" : 1614754654814,
+      "stop" : 1614754654814,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "添加成员测试用例"
+  }, {
+    "name" : "feature",
+    "value" : "添加成员"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_contact"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestContact"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-G0VL8CLJ"
+  }, {
+    "name" : "thread",
+    "value" : "17220-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_contact"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "get_datas_member",
+    "value" : "['测试22', 'test22', '18898426521']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "31d2a83d2719c34.json",
+  "parameterValues" : [ "['测试22', 'test22', '18898426521']" ]
+}

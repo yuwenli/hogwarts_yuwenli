@@ -1,0 +1,39 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "添加成员",
+    "children" : [ {
+      "name" : "添加成员测试用例",
+      "children" : [ {
+        "name" : "test_add_member[get_datas_member0]",
+        "uid" : "568d6a95dfd43f70",
+        "parentUid" : "605600af0811217ed64c01a9f6d3af58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614754651115,
+          "stop" : 1614754652591,
+          "duration" : 1476
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['测试21', 'test21', '18898426522']" ]
+      }, {
+        "name" : "test_add_member[get_datas_member1]",
+        "uid" : "31d2a83d2719c34",
+        "parentUid" : "605600af0811217ed64c01a9f6d3af58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614754653306,
+          "stop" : 1614754654814,
+          "duration" : 1508
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['测试22', 'test22', '18898426521']" ]
+      } ],
+      "uid" : "605600af0811217ed64c01a9f6d3af58"
+    } ],
+    "uid" : "3f633001356d810cc4ef5551c5746f67"
+  } ]
+}
