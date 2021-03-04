@@ -1,0 +1,87 @@
+{
+  "uid" : "98251afefb828f45",
+  "name" : "test_add_member",
+  "fullName" : "testcase.test_add_member.TestAddMember#test_add_member",
+  "historyId" : "2824c1af24d381b97e7f8440e62e4306",
+  "time" : {
+    "start" : 1614768789812,
+    "stop" : 1614768839906,
+    "duration" : 50094
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "手动添加成员",
+      "time" : {
+        "start" : 1614768789812,
+        "stop" : 1614768839906,
+        "duration" : 50094
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "添加成员"
+  }, {
+    "name" : "story",
+    "value" : "添加成员测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_add_member"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddMember"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-G0VL8CLJ"
+  }, {
+    "name" : "thread",
+    "value" : "21096-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_add_member"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "98251afefb828f45.json",
+  "parameterValues" : [ ]
+}

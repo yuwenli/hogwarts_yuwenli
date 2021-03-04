@@ -1,0 +1,48 @@
+add_member:
+  - elementName: "name"
+    by: xpath
+    locator: "//*[@text='手动输入添加']"
+    action: click
+    method: find_element
+    remark: "姓名"
+
+  - elementName: "sex_click"
+    by: xpath
+    locator: "//*[@resource-id='com.tencent.wework:id/av2']"
+    action: click
+    method: find_elements
+    index: 0
+    remark: "点击性别取第一个元素elements[0]"
+
+  - elementName: "sex_choose"
+    by: xpath
+    locator: "//*[@text='{sex}']"
+    action: click
+    method: find_element
+    remark: "选择性别"
+
+  - elementName: "phonenum"
+    by: xpath
+    locator: "//*[@text='手机号']"
+    action: send_keys
+    content: "18898421001"
+    method: find_element
+    remark: "手机号"
+
+  - elementName: "email"
+    by: xpath
+    locator: "//*[@resource-id='com.tencent.wework:id/au0']"
+    action: send_keys
+    content: "2225290921@qq.com"
+    method: find_elements
+    index: 1
+    remark: "邮箱取第2个元素elements[1]"
+
+  - elementName: "address"
+    by: xpath
+    locator: "//*[@resource-id='com.tencent.wework:id/aut']"
+    action: send_keys
+    content: "测试地址1"
+    method: find_elements
+    index: 1
+    remark: "点击地址取第二个元素elements[1]"

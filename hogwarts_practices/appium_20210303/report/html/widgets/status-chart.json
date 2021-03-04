@@ -1,0 +1,21 @@
+[ {
+  "uid" : "98251afefb828f45",
+  "name" : "test_add_member",
+  "time" : {
+    "start" : 1614768789812,
+    "stop" : 1614768839906,
+    "duration" : 50094
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b5645d9ea336882c",
+  "name" : "test_daka",
+  "time" : {
+    "start" : 1614768839908,
+    "stop" : 1614768900819,
+    "duration" : 60911
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

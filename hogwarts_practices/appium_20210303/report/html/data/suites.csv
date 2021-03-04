@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Mar 03 18:53:09 CST 2021","Wed Mar 03 18:53:59 CST 2021","50094","testcase","test_add_member","TestAddMember","","","test_add_member",""
+"broken","Wed Mar 03 18:53:59 CST 2021","Wed Mar 03 18:55:00 CST 2021","60911","testcase","test_daka","TestDaka","","","test_daka",""

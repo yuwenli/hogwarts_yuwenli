@@ -1,0 +1,47 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "添加成员",
+    "children" : [ {
+      "name" : "添加成员测试",
+      "children" : [ {
+        "name" : "test_add_member",
+        "uid" : "98251afefb828f45",
+        "parentUid" : "c0400d2b3615c873bf8a5513b6045633",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614768789812,
+          "stop" : 1614768839906,
+          "duration" : 50094
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c0400d2b3615c873bf8a5513b6045633"
+    } ],
+    "uid" : "3f633001356d810cc4ef5551c5746f67"
+  }, {
+    "name" : "打开测试",
+    "children" : [ {
+      "name" : "打卡测试用例",
+      "children" : [ {
+        "name" : "test_daka",
+        "uid" : "b5645d9ea336882c",
+        "parentUid" : "d307aba8efadca8dc900957ffdda281d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1614768839908,
+          "stop" : 1614768900819,
+          "duration" : 60911
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d307aba8efadca8dc900957ffdda281d"
+    } ],
+    "uid" : "bf2c560fd67341f4eb5bfffd974c5794"
+  } ]
+}
