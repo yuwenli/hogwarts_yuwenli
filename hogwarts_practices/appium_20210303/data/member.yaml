@@ -1,8 +1,32 @@
+sign:
+  - elementName: "sign_outplace"
+    by: xpath
+    locator: "//*[@text='外出打卡']"
+    action: click
+    method: find_element
+    remark: "点击外出打卡"
+
+  - elementName: "sign_operation"
+    by: xpath
+    locator: "//*[contains(@text,'次外出')]"
+    action: click
+    method: find_element
+    remark: "外出打卡操作"
+
+sign_outplace_data:
+  - elementName: "sign_data"
+    by: id
+    locator: "mn"
+    action: None
+    method: find_element
+    remark: "获取外出打卡数据"
+
 add_member:
   - elementName: "name"
     by: xpath
-    locator: "//*[@text='手动输入添加']"
-    action: click
+    locator: "//*[@text='必填']"
+    action: send_keys
+    content: "测试手动添加1"
     method: find_element
     remark: "姓名"
 
@@ -16,7 +40,7 @@ add_member:
 
   - elementName: "sex_choose"
     by: xpath
-    locator: "//*[@text='{sex}']"
+    locator: "//*[@text='女']"
     action: click
     method: find_element
     remark: "选择性别"
@@ -25,7 +49,7 @@ add_member:
     by: xpath
     locator: "//*[@text='手机号']"
     action: send_keys
-    content: "18898421001"
+    content: "18898421099"
     method: find_element
     remark: "手机号"
 
@@ -33,7 +57,7 @@ add_member:
     by: xpath
     locator: "//*[@resource-id='com.tencent.wework:id/au0']"
     action: send_keys
-    content: "2225290921@qq.com"
+    content: "2225290999@qq.com"
     method: find_elements
     index: 1
     remark: "邮箱取第2个元素elements[1]"
@@ -41,8 +65,33 @@ add_member:
   - elementName: "address"
     by: xpath
     locator: "//*[@resource-id='com.tencent.wework:id/aut']"
-    action: send_keys
-    content: "测试地址1"
+    action: click
     method: find_elements
     index: 1
-    remark: "点击地址取第二个元素elements[1]"
+    remark: "点击地址"
+
+  - elementName: "address_send"
+    by: xpath
+    locator: "//*[@resource-id='com.tencent.wework:id/gz']"
+    action: send_keys
+    method: find_element
+    content: "测试地址1"
+    remark: "输入地址"
+
+  - elementName: "assure"
+    by: xpath
+    locator: "//*[@text='确定']"
+    action: click
+    method: find_element
+    remark: "点击点击确定"
+
+  - elementName: "save"
+    by: xpath
+    locator: "//*[@text='保存']"
+    action: click
+    method: find_element
+    remark: "保存"
+
+
+
+
