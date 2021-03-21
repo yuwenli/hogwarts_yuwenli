@@ -1,0 +1,207 @@
+#进入工作台
+goto_workbanch:
+  - elementName: "workbanch"
+    by: xpath
+    locator: "//*[@text='工作台']"
+    action: click
+    method: find_element
+    remark: "工作台"
+
+#进入通讯录
+goto_contact:
+  - elementName: "contact"
+    by: xpath
+    locator: "//*[@text='通讯录']"
+    action: click
+    method: find_element
+    remark: "通讯录"
+
+#打卡页面
+sign:
+  - elementName: "sign_outplace"
+    by: xpath
+    locator: "//*[@text='外出打卡']"
+    action: click
+    method: find_element
+    remark: "点击外出打卡"
+
+  - elementName: "sign_operation"
+    by: xpath
+    locator: "//*[contains(@text,'次外出')]"
+    action: click
+    method: find_element
+    remark: "外出打卡操作"
+
+#获取外出打卡数据
+sign_outplace_data:
+  - elementName: "sign_data"
+    by: id
+    locator: "mn"
+    action: None
+    method: find_element
+    remark: "获取外出打卡数据"
+
+#联系人添加主页面
+add_memeber_main:
+  - elementName: "sign_data"
+    by: xpath
+    locator: "//*[@text='添加成员']"
+    action: None
+    method: find_element
+    remark: "添加成员页面"
+
+#选择手动添加联系人
+add_memeber_manual:
+  - elementName: "sign_data"
+    by: xpath
+    locator: "//*[@text='手动输入添加']"
+    action: click
+    method: find_element
+    remark: "进入手动添加成员页面"
+
+#添加联系人
+add_member:
+  - elementName: "name"
+    by: xpath
+    locator: "//*[contains(@text,'姓名')]/../android.widget.EditText"
+    action: send_keys
+    content: ${name}
+    method: find_element
+    remark: "姓名"
+
+  - elementName: "sex_click"
+    by: xpath
+    locator: "//*[@resource-id='com.tencent.wework:id/av2']"
+    action: click
+    method: find_elements
+    index: 0
+    remark: "点击性别取第一个元素elements[0]"
+
+  - elementName: "sex_choose"
+    by: xpath
+    locator: "//*[@text='女']"
+    action: click
+    method: find_element
+    remark: "选择性别"
+
+  - elementName: "phonenum"
+    by: xpath
+    locator: "//*[@text='手机号']"
+    action: send_keys
+    content: ${phonenum}
+    method: find_element
+    remark: "手机号"
+
+  - elementName: "email"
+    by: xpath
+    locator: "//*[@resource-id='com.tencent.wework:id/au0']"
+    action: send_keys
+    content: ${email}
+    method: find_elements
+    index: 1
+    remark: "邮箱取第2个元素elements[1]"
+
+  - elementName: "address_click"
+    by: xpath
+    locator: "//*[@resource-id='com.tencent.wework:id/aut']"
+    action: click
+    method: find_elements
+    index: 1
+    remark: "点击地址"
+
+  - elementName: "address"
+    by: xpath
+    locator: "//*[@resource-id='com.tencent.wework:id/gz']"
+    action: send_keys
+    method: find_element
+    content: ${address}
+    remark: "输入地址"
+
+  - elementName: "assure"
+    by: xpath
+    locator: "//*[@text='确定']"
+    action: click
+    method: find_element
+    remark: "确定"
+
+
+# 确定保存联系人
+save_contact:
+  - elementName: "save"
+    by: xpath
+    locator: "//*[@text='保存']"
+    action: click
+    method: find_element
+    remark: "保存"
+
+#搜索联系人页面
+search_contact:
+  - elementName: "name"
+    by: xpath
+    locator: "//*[@text='搜索']"
+    action: send_keys
+    method: find_element
+    content: ${name}
+    remark: "搜索联系人"
+
+  - elementName: "search_name_click"
+    by: id
+    locator: "d2f"
+    action: click
+    method: find_element
+    remark: "点击联系人"
+
+#个人信息页面
+contact_detail_setting:
+  - elementName: "detail_setting"
+    by: id
+    locator: "guk"
+    action: click
+    method: find_element
+    remark: "成员信息页面"
+
+  - elementName: "edit_setting"
+    by: xpath
+    locator: "//*[@text='编辑成员']"
+    action: click
+    method: find_element
+    remark: "编辑成员页面"
+
+#删除联系人页面
+delete_contact:
+  - elementName: "delete"
+    by: xpath
+    locator: "//*[@text='删除成员']"
+    action: click
+    method: find_element
+    remark: "删除联系人"
+  - elementName: "confirm"
+    by: xpath
+    locator: "//*[@text='确定']"
+    action: click
+    method: find_element
+    remark: "确定删除"
+
+# 修改联系人信息
+edit_contact:
+  - elementName: "name"
+    by: xpath
+    locator: "//*[contains(@text,'姓名')]/../android.widget.EditText"
+    action: send_keys
+    content: ${name}
+    method: find_element
+    remark: "姓名"
+
+  - elementName: "sex_click"
+    by: id
+    locator: "dux"
+    action: click
+    method: find_element
+    remark: "点击性别"
+
+  - elementName: "sex"
+    by: xpath
+    locator: "//*[@text='男']"
+    action: click
+    method: find_element
+    remark: "性别"

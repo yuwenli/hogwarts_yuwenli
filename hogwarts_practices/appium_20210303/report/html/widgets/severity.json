@@ -1,21 +1,11 @@
 [ {
-  "uid" : "98251afefb828f45",
-  "name" : "test_add_member",
+  "uid" : "ac02c3e4ea809d4f",
+  "name" : "test_edit_contact",
   "time" : {
-    "start" : 1614768789812,
-    "stop" : 1614768839906,
-    "duration" : 50094
+    "start" : 1616344832837,
+    "stop" : 1616344873440,
+    "duration" : 40603
   },
   "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b5645d9ea336882c",
-  "name" : "test_daka",
-  "time" : {
-    "start" : 1614768839908,
-    "stop" : 1614768900819,
-    "duration" : 60911
-  },
-  "status" : "broken",
   "severity" : "normal"
 } ]

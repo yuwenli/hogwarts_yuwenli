@@ -1,0 +1,10 @@
+Mon, 22, Mar 2021 00:40:57-root-INFO-元素查找:locator=xpath,value=//*[@text='通讯录']
+Mon, 22, Mar 2021 00:41:01-root-INFO-元素查找:locator=id,value=guu
+Mon, 22, Mar 2021 00:41:01-root-INFO-元素查找:locator=xpath,value=//*[@text='搜索']
+Mon, 22, Mar 2021 00:41:03-root-INFO-元素查找:locator=id,value=d2f
+Mon, 22, Mar 2021 00:41:05-root-INFO-元素查找:locator=id,value=guk
+Mon, 22, Mar 2021 00:41:07-root-INFO-元素查找:locator=xpath,value=//*[@text='编辑成员']
+Mon, 22, Mar 2021 00:41:08-root-INFO-元素查找:locator=xpath,value=//*[contains(@text,'姓名')]/../android.widget.EditText
+Mon, 22, Mar 2021 00:41:10-root-INFO-元素查找:locator=id,value=dux
+Mon, 22, Mar 2021 00:41:11-root-INFO-元素查找:locator=xpath,value=//*[@text='男']
+Mon, 22, Mar 2021 00:41:12-root-INFO-元素查找:locator=xpath,value=//*[@text='保存']

@@ -1,0 +1,156 @@
+{
+  "uid" : "ac02c3e4ea809d4f",
+  "name" : "test_edit_contact",
+  "fullName" : "testcase.test_contact.TestContact#test_edit_contact",
+  "historyId" : "d009c9a2f71a9ad62d58d4570732f966",
+  "time" : {
+    "start" : 1616344832837,
+    "stop" : 1616344873440,
+    "duration" : 40603
+  },
+  "description" : "\n            1.进入搜索页面\n            2.查找姓名 contact_search_name\n            3.进入个人信息,修改 _update_data\n            ",
+  "descriptionHtml" : "<pre><code>        1.进入搜索页面\n        2.查找姓名 contact_search_name\n        3.进入个人信息,修改 _update_data\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1616344832835,
+      "stop" : 1616344832835,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "\n            1.进入搜索页面\n            2.查找姓名 contact_search_name\n            3.进入个人信息,修改 _update_data\n            ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入搜索页面",
+      "time" : {
+        "start" : 1616344832837,
+        "stop" : 1616344861456,
+        "duration" : 28619
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "搜索页面搜索联系人",
+      "time" : {
+        "start" : 1616344861456,
+        "stop" : 1616344865170,
+        "duration" : 3714
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "进入个人信息页面编辑后提交",
+      "time" : {
+        "start" : 1616344865171,
+        "stop" : 1616344873440,
+        "duration" : 8269
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "160beaec00726ae0",
+      "name" : "log",
+      "source" : "160beaec00726ae0.txt",
+      "type" : "text/plain",
+      "size" : 796
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1616344873441,
+      "stop" : 1616344873441,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "搜索后编辑联系人"
+  }, {
+    "name" : "feature",
+    "value" : "联系人操作"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_contact"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestContact"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-G0VL8CLJ"
+  }, {
+    "name" : "thread",
+    "value" : "9948-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_contact"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ac02c3e4ea809d4f.json",
+  "parameterValues" : [ ]
+}
