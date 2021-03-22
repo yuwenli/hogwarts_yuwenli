@@ -32,7 +32,7 @@ if __name__ == '__main__':
     delete_report()
     # pytest执行某个py的类，并生成报告
     pytest.main(
-        ['-v', '-s', r'E:/lago/python_project1/hogwarts_practices/appium_20210303/testcase/test_contact.py',
+        ['-v', '-s', r'E:/lago/python_project1/hogwarts_practices/appium_20210303/testcase',
          '--alluredir=E:/lago/python_project1/hogwarts_practices/appium_20210303/report'
          ])
     os.system("allure generate %s -o %s --clean" % (report_dir, html_dir))
