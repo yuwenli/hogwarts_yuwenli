@@ -1,0 +1,30 @@
+# 通讯录：创建成员，获取成员信息，删除成员
+Address:
+  - test_interface: "create_member"
+    url: "https://qyapi.weixin.qq.com/cgi-bin/user/create"
+    method: "POST"
+    data:
+      "userid": "test02"
+      "name": "test"
+      "mobile": "13889898934"
+      "department": [2]
+    expect: "created"
+  - test_interface: "get_member"
+    url: "https://qyapi.weixin.qq.com/cgi-bin/user/get"
+    method: "GET"
+    data:
+      "userid": "test02"
+    expect: "ok"
+  - test_interface: "delete_member"
+    url: "https://qyapi.weixin.qq.com/cgi-bin/user/delete"
+    method: "GET"
+    data:
+      "userid": "test02"
+    expect: "deleted"
+  - test_interface:  "update_member"
+    url:  "https://qyapi.weixin.qq.com/cgi-bin/user/update"
+    method:  "POST"
+    data:
+      "userid": "test02"
+      "name": "test_new_name测试"
+    expect: "updated"
